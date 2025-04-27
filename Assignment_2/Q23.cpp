@@ -6,9 +6,14 @@ using namespace std;
 //full pyramid number pattern
 int main()
 {
-    for(int i = 1; i<=10; i++)
+    int query;
+
+    cout<<"Enter number of rows you want: ";
+    cin>>query;
+
+    for(int i = 1; i<=query; i++)
     {
-        for(int l = (10-i) ; l>=1 ; l--)
+        for(int l = (query-i) ; l>=1 ; l--)
         {
             cout<<" "<<" ";
         }
@@ -25,10 +30,10 @@ int main()
 
     cout<<'\n';
 
-    for(int i=1; i<=10; i++)
+    for(int i=1; i<=query; i++)
     {
         
-        cout<<string(2*(10-i),' ')<<" ";
+        cout<<string(2*(query-i),' ')<<" ";
 
         int increment = 1,num =1;
         while(increment<=((2*i)-1))
