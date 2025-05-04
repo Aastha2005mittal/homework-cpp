@@ -1,10 +1,10 @@
-
+// prime or not
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 int main(){
-    // Prime or not 
+
     int n;
     cout<<"Enter the Number : ";
     cin>>n;
