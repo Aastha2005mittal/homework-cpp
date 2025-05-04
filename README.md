@@ -1,2 +1,1 @@
-Hi ,long time no see 😂 
-~parth
+Reporitory created to learn version control and collabration
